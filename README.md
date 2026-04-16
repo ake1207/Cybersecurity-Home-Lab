@@ -22,6 +22,7 @@ Here is a network diagram to better visualise the Lab Architecure:
 
 <img width="3124" height="3444" alt="image" src="https://github.com/user-attachments/assets/6bc30149-9d26-4192-a1ed-8df1788eba20" />
 
+This diagram illustrates the isolated host-only network used in the lab, where Kali acts as the attacker and communicates with both targets.
 
 # Skills Demonstrated
 
