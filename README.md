@@ -76,10 +76,6 @@ Wireshark was used to analyse:
 
 This provided insight into how network scanning tools operate at the protocol level
 
-# Full Report
-
-A detailed full technical report is available in the /fullreport directory
-
 
 
 
