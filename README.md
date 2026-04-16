@@ -1,7 +1,7 @@
 # Cybersecurity-Home-Lab
 This project documents the creation, analysis and testing of a virtual cybersecurity lab environment designed to simulate real-world interactions and penetration testing procedures.
 
-Lab was built using:
+# Lab was built using:
 
 •Oracle VirtualBox
 
@@ -11,7 +11,7 @@ Lab was built using:
 
 •Metasploitable2 (Vulnerable Target)
 
-Lab Architecture
+# Lab Architecture
 
 •Isolated Host-Only Network: 192.168.56.0/24
 
@@ -23,7 +23,7 @@ Here is a network diagram to better visualise the Lab Architecure:
 <img width="3124" height="3444" alt="image" src="https://github.com/user-attachments/assets/6bc30149-9d26-4192-a1ed-8df1788eba20" />
 
 
-Skills Demonstrated
+# Skills Demonstrated
 
 •Virtual machine deployment and configuration
 
@@ -35,7 +35,7 @@ Skills Demonstrated
 
 •Packet-level traffic analysis using Wireshark
 
-Networking Challenges & Solutions
+# Networking Challenges & Solutions
 
 During setup, several issues were encountered:
 •“Unidentified Network” on Windows
@@ -51,13 +51,13 @@ These were resolved by:
 
 •Verifying subnet consistency across all VMs
 
-Reconnaissance Techniques
+# Reconnaissance Techniques
 
 •nmap -sn 192.168.56.0/24 #Host Discovery
 
 •nmap -sV 192.168.56.x #Service Enumeration
 
-Packet Analysis
+# Packet Analysis
 
 Wireshark was used to analyse:
 
@@ -69,7 +69,7 @@ Wireshark was used to analyse:
 
 This provided insight into how network scanning tools operate at the protocol level
 
-Full Report
+# Full Report
 
 A detailed full technical report is available in the /fullreport directory
 
