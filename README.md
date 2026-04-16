@@ -38,6 +38,7 @@ Here is a network diagram to better visualise the Lab Architecure:
 # Networking Challenges & Solutions
 
 During setup, several issues were encountered:
+
 •“Unidentified Network” on Windows
 
 •Failed ICMP communication
@@ -45,6 +46,7 @@ During setup, several issues were encountered:
 •DHCP inconsistencies
 
 These were resolved by:
+
 •Reconfiguring VirtualBox Host-Only adapters
 
 •Adjusting firewall rules to allow ICMP
