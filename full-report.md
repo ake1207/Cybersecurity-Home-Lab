@@ -11,6 +11,8 @@ My Objective was to:
 
 The lab was built using Oracle VirtualBox, with Kali as an attacker, and Windows 10 as a regular target followed by Metasploitable2 acting as a vulnerable target. I created the virtual network environment using a Host-Only network: 192.168.56.0/24. All machines were assigned IPs within this subnet. Ensuring isolation from external networks to therefore create a safe testing environment. Here is a network diagram to better visualize this virtual network:
 
+<img width="3124" height="3444" alt="image" src="https://github.com/user-attachments/assets/f64d9a66-f308-46ca-a31d-693536cad58a" />
+
 
 Each virtual machine was constructed with appropriate resources: (RAM, CPU, Storage). The key configuration step was ensuring that all VMs used the same Host-Only Adapter within VirtualBox. Metasploitable2 was imported using a preconfigured virtual disk, whereas Windows10 and Kali Linux were installed via ISO images to ensure a boot medium was installed as the virtual machines wouldn t operate otherwise.
 
