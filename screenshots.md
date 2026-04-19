@@ -10,3 +10,10 @@ The shows the output of ipconfig, showing the assigned IP and confirming the sys
 
 This screenshot shows the output of ifconfig, confirming that Metasploitable2 has been assigned an IP address within the 192.168.56.0/24 subnet. Ensuring proper network configuration.
 
+<img width="592" height="175" alt="Screenshot 2026-04-17 120406" src="https://github.com/user-attachments/assets/225328e4-4f1a-4560-8bd9-e3f334e15789" />
+
+This screenshot shows Kali linux failing to ping Windows VM and showing 100% packet loss, indicating a network connectivity issue requiring further troubleshooting.
+
+<img width="568" height="305" alt="Screenshot 2026-04-17 120446" src="https://github.com/user-attachments/assets/d54e8ba4-e10a-4dc3-9a30-d768e6856a7e" />
+
+Here you can see a successful ICMP communication from the windows vm, confirming it is functioning correctly post troubleshooting. Indicating the network configuration and firewall issues have been resolved.
