@@ -22,5 +22,8 @@ Here you can see a successful ICMP communication from the windows vm, confirming
 
 This screenshot shows a successful ping from Kali to Metasploitable2, signalling that its operating correctly and connected to the Host-Only network.
 
+<img width="627" height="409" alt="Screenshot 2026-04-17 120650" src="https://github.com/user-attachments/assets/a87e91e0-e0d0-491c-a777-de4a04c259c8" />
+
+This screenshot shows a host discovery scan performed using nmap by using the command nmap -sn. Identifying active devices within the 192.168.56.0/24 subnet. Results confirm multiple active hosts, includng windows and metasploitable vm's.
 
 
