@@ -24,6 +24,17 @@ This screenshot shows a successful ping from Kali to Metasploitable2, signalling
 
 <img width="627" height="409" alt="Screenshot 2026-04-17 120650" src="https://github.com/user-attachments/assets/a87e91e0-e0d0-491c-a777-de4a04c259c8" />
 
-This screenshot shows a host discovery scan performed using nmap by using the command nmap -sn. Identifying active devices within the 192.168.56.0/24 subnet. Results confirm multiple active hosts, includng windows and metasploitable vm's.
+This screenshot shows a host discovery scan performed using nmap by using the command nmap -sn. Identifying active devices within the 192.168.56.0/24 subnet. Results confirm multiple active hosts, including windows and metasploitable vm's.
+
+<img width="620" height="377" alt="Screenshot 2026-04-17 120727" src="https://github.com/user-attachments/assets/166e19bf-d5d2-4965-b806-21b4cf514d36" />
+
+This screenshot demonstrates service enumeration using Nmap, identifying open ports and running services on the Windows VM. The presence of services such as NetBIOS and Microsoft RPC highlights potential entry points for attacks.
+
+<img width="1685" height="914" alt="Screenshot 2026-04-17 121005" src="https://github.com/user-attachments/assets/da8c3ce1-3924-4bf4-a4f3-d260f723de81" />
+
+This creenshot captures ICMP echo requests and replies between Kali Linux and the Windows VM using Wireshark. Illustrating successful network communication and provides insight into how connectivity tests such as ping operate at the protocol level.
+
+
+
 
 
