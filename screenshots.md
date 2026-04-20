@@ -17,3 +17,10 @@ This screenshot shows Kali linux failing to ping Windows VM and showing 100% pac
 <img width="568" height="305" alt="Screenshot 2026-04-17 120446" src="https://github.com/user-attachments/assets/d54e8ba4-e10a-4dc3-9a30-d768e6856a7e" />
 
 Here you can see a successful ICMP communication from the windows vm, confirming it is functioning correctly post troubleshooting. Indicating the network configuration and firewall issues have been resolved.
+
+<img width="530" height="236" alt="Screenshot 2026-04-17 120623" src="https://github.com/user-attachments/assets/ab55539c-e5c0-4bd5-beb8-8ab99bb8b8a3" />
+
+This screenshot shows a successful ping from Kali to Metasploitable2, signalling that its operating correctly and connected to the Host-Only network.
+
+
+
