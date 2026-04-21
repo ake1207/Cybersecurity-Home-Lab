@@ -32,7 +32,11 @@ This screenshot demonstrates service enumeration using Nmap, identifying open po
 
 <img width="1685" height="914" alt="Screenshot 2026-04-17 121005" src="https://github.com/user-attachments/assets/da8c3ce1-3924-4bf4-a4f3-d260f723de81" />
 
-This creenshot captures ICMP echo requests and replies between Kali Linux and the Windows VM using Wireshark. Illustrating successful network communication and provides insight into how connectivity tests such as ping operate at the protocol level.
+This screenshot captures ICMP echo requests and replies between Kali Linux and the Windows VM using Wireshark. Illustrating successful network communication and provides insight into how connectivity tests such as ping operate at the protocol level.
+
+<img width="1897" height="759" alt="Screenshot 2026-04-17 121358" src="https://github.com/user-attachments/assets/497b19f2-2b70-4032-a9c7-e816dcc9b5b6" />
+
+This screenshot demonstrates targeted packet analysis in Wireshark by applying the filter ip.addr == 192.168.56.103 to isolate traffic between Kali Linux and the Metasploitable2. The captured ICMP echo requests and replies confirm successful communication and highlight the use of filters to analyse specific host interactions.
 
 
 
