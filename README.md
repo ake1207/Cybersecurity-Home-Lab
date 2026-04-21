@@ -5,6 +5,10 @@ For the full orginal write-up, see:
 
 [Full Report](./full-report.md)
 
+For screenshots of the lab, see:
+
+[Screenshots](./screenshots.md)
+
 # Lab was built using:
 
 •Oracle VirtualBox
