@@ -18,6 +18,10 @@ This screenshot shows Kali linux failing to ping Windows VM and showing 100% pac
 
 Here you can see a successful ICMP communication from the windows vm, confirming it is functioning correctly post troubleshooting. Indicating the network configuration and firewall issues have been resolved.
 
+<img width="660" height="243" alt="Screenshot 2026-04-17 122856" src="https://github.com/user-attachments/assets/07de2ecf-ad28-4a0c-b955-60a2f02f8c05" />
+
+This screenshot shows the temporary disabling of the Windows firewall using netsh advfirewall, which was used to confirm that the firewall rules were the root cause of the blocked ICMP traffic. The firewall was subswequently re-enabled to maintain system security.
+
 <img width="530" height="236" alt="Screenshot 2026-04-17 120623" src="https://github.com/user-attachments/assets/ab55539c-e5c0-4bd5-beb8-8ab99bb8b8a3" />
 
 This screenshot shows a successful ping from Kali to Metasploitable2, signalling that its operating correctly and connected to the Host-Only network.
@@ -37,6 +41,7 @@ This screenshot captures ICMP echo requests and replies between Kali Linux and t
 <img width="1897" height="759" alt="Screenshot 2026-04-17 121358" src="https://github.com/user-attachments/assets/497b19f2-2b70-4032-a9c7-e816dcc9b5b6" />
 
 This screenshot demonstrates targeted packet analysis in Wireshark by applying the filter ip.addr == 192.168.56.103 to isolate traffic between Kali Linux and the Metasploitable2. The captured ICMP echo requests and replies confirm successful communication and highlight the use of filters to analyse specific host interactions.
+
 
 
 
